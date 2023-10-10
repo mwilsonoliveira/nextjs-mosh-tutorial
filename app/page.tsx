@@ -1,11 +1,12 @@
-import Link from "next/link";
+import Header from "./components/Header/Header";
+import Nav from "./components/Nav/Nav";
 import ProductCard from "./components/ProductCard/ProductCard";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello World!</h1>
-      <Link href="/users">Usuários</Link>
+      <Header text={"Home"} />
+      <Nav />
       <ProductCard />
     </main>
   );

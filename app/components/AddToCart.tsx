@@ -3,7 +3,10 @@
 function AddToCart() {
   return (
     <div>
-      <button onClick={() => console.log("click")}>
+      <button
+        onClick={() => console.log("click")}
+        className="btn btn-primary btn-disabled"
+      >
         Adicionar ao carrinho
       </button>
     </div>
